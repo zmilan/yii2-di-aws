@@ -1,0 +1,29 @@
+{
+  "name": "zmilan/yii2-di-aws",
+  "type": "yii2-extension",
+  "description": "Example of using aws-sdk trough Yii2 DI container",
+  "keywords": ["yii2", "aws", "aws sdk", "amazon web services", "yii2 DI aws"],
+  "license": "The MIT License (MIT)",
+  "support": {
+    "wiki": "https://github.com/zmilan/yii2-di-aws/wiki",
+    "source": "https://github.com/zmilan/yii2-di-aws"
+  },
+  "authors": [
+    {
+      "name": "Milan Zivkovic",
+      "email": "zivkovic.milan@gmail.com"
+    }
+  ],
+  "require": {
+    "yiisoft/yii2": "*",
+    "aws/aws-sdk-php": "2.*"
+  },
+  "autoload": {
+    "psr-4": {
+      "zmilan\\aws\\": ""
+    }
+  },
+  "extra": {
+    "bootstrap": "zmilan\\aws\\AwsBootstrap"
+  }
+}
